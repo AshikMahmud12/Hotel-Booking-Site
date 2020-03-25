@@ -1,0 +1,572 @@
+@import "nice-select";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Nav Section */
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Nav Links */
+.navLinks {
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+    letter-spacing: normal;
+}
+/* Nav Hover */
+.navLinks li a:hover:not(.active) {
+    color: #dca73a;
+}
+.navLinks li {
+    list-style: none;
+}
+/* Nav List */
+.navLinks li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+}
+
+/* Nav Button */
+.button {
+    background-color: #dca73a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 4px 2px;
+    padding: 5px;
+}
+/* logo Section */
+.logo {
+    font-size: 30px;
+}
+
+/* Hero Section */
+
+#heroSection {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+/* hero Image  */
+.bgImage {
+    background-image: url("./assets/images/hero.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/* Hero Image Overlay  */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    position: absolute;
+    opacity: 0.5;
+}
+
+/* Hero Image Text */
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
+/* Booking System */
+#bookingSystemSection {
+    position: absolute;
+    z-index: 5;
+    font-size: 18px;
+}
+
+.bookingSystem {
+    background-color: white;
+    padding: 39px 80px 20px 80px;
+    display: flex;
+    margin-top: -60px;
+    margin-left: 200px;
+}
+#bookingSystemSection select {
+    display: none;
+}
+
+.checkOutDate {
+    margin-left: 30px;
+}
+.adults {
+    margin-left: 30px;
+}
+#adult:hover {
+    background-color: #dca73a;
+}
+
+.childrenSection {
+    margin-left: 30px;
+}
+
+select option[value]:hover {
+    background-color: #dca73a;
+}
+
+.room {
+    margin-left: 30px;
+}
+.bookNow {
+    margin-left: 30px;
+}
+/* About Company */
+#ourCompany {
+    display: flex;
+    margin-top: 200px;
+}
+/* Upload Company Image */
+.companyImage img {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+/* Company Detail */
+.companyDetail {
+    background-color: white;
+    width: 700px;
+    height: 400px;
+}
+.companyDetailHeading {
+    color: #dca73a;
+    margin-left: 50px;
+    font-size: xx-large;
+    padding-top: 80px;
+}
+.companyDetailDrinks {
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+.companyDetailParagraph1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.companyDetailParagraph2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* Company Button */
+.buttonCompany {
+    background-color: #dca73a;
+    margin-left: 50px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    margin-right: 430px;
+    margin-top: 50px;
+}
+.buttonCompany i {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.buttonCompany:hover {
+    background-color: orange;
+}
+/* Experience */
+.experience {
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 40px;
+    font-size: 30px;
+
+    margin-top: 550px;
+    margin-left: 80px;
+}
+
+/* Container Room Section */
+#container {
+    padding: 60px;
+}
+/* Room Section */
+.ourRoom {
+    text-align: center;
+    font-size: 80px;
+    opacity: 0.03;
+    margin-top: 80px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.flex-container div {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.flex-container div p:nth-child(2):hover {
+    color: #dca73a;
+}
+.flex-container div p:last-child {
+    font-size: 20px;
+}
+
+/* Button in Room */
+.buttonRoom {
+    background-color: #dca73a;
+    margin-left: 600px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    margin-right: 520px;
+}
+.buttonRoom i {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.buttonRoom:hover {
+    background-color: orange;
+}
+
+/* Our  Resturant*/
+#ourResturant {
+    display: flex;
+    margin-top: 100px;
+}
+/* Resturant Image Upload  */
+.resturantImage img {
+    width: 660px;
+    height: 700px;
+    position: relative;
+}
+/* Resturant Detail  */
+.resturantDetail {
+    background-color: white;
+    opacity: 0.8;
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    margin-left: 470px;
+}
+.resturantDetailHeading {
+    color: #dca73a;
+    margin-left: 50px;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+.resturantDetailDrinks {
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+.resturantDetailParagraph {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* Resturant Button */
+.buttonResturant {
+    background-color: #dca73a;
+    margin-left: 50px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    margin-right: 430px;
+    margin-top: 50px;
+}
+.buttonResturant i {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.buttonResturant:hover {
+    background-color: orange;
+}
+
+/* Our Pool  Section*/
+/* Pool Image Upload */
+.poolImage img {
+    width: 645px;
+    height: 700px;
+    margin-left: 700px;
+    position: relative;
+}
+/* Pool Detail */
+.poolDetail {
+    background-color: white;
+    opacity: 0.8;
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    margin-left: 130px;
+}
+.poolDetailHeading {
+    color: #dca73a;
+    margin-left: 50px;
+    font-size: xx-large;
+    padding-top: 50px;
+    text-align: right;
+    margin-right: 50px;
+}
+.poolDetailDrinks {
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    margin-right: 50px;
+}
+.poolDetailParagraph {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+/* Pool Button */
+.buttonPool {
+    background-color: #dca73a;
+    margin-left: 50px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 440px;
+}
+.buttonPool i {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.buttonPool:hover {
+    background-color: orange;
+}
+/* Testimonial */
+.testimonialSection h1 {
+    margin-top: 90px;
+}
+.testimonialItem {
+    text-align: center;
+    font-size: 25px;
+
+    color: #696868;
+    line-height: 1.5;
+    padding: 9px;
+    margin-bottom: 37px;
+}
+.testimonialItem p {
+    display: block;
+    margin: 10px 130px 30px 130px;
+}
+.starMarking {
+    color: yellow;
+}
+.client {
+    color: #112e41;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.client span {
+    font-size: 14px;
+    color: #696868;
+}
+/* Button in blog */
+.buttonNews {
+    background-color: #dca73a;
+    border: none;
+    color: white;
+
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+}
+.buttonBlog {
+    text-align: left;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.buttonBlog p {
+    margin-left: 175px;
+    font-size: 20px;
+}
+.flex-containerBlog {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.flexBlogItem {
+    background-color: #f1f1f1;
+    margin-right: 20px;
+}
+.blogMiddleParagraph {
+    font-size: 20px;
+    padding: 15px;
+}
+.flexBlogItem:hover {
+    color: #dca73a;
+    border: 1px solid;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Owl Carousel */
+
+/* .owl-carousel img {
+    width: 336px;
+}
+#owlCarousel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+} */
+.item img {
+    height: 250px;
+    width: 100%;
+}
+.owl-dots {
+    display: none;
+}
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 80px;
+    display: flex;
+}
+.footerFirst {
+    flex-direction: column;
+}
+.logo {
+    font-size: 35px;
+}
+
+.socialMedia {
+    display: flex;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.socialMedia a:hover {
+    color: #dca73a;
+}
+.socialMedia a {
+    margin-left: 10px;
+    color: white;
+}
+.copyright {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 24px;
+    color: #868c98;
+}
+.footerSecondHead {
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+.footerSecondNav {
+    margin-top: 50px;
+}
+.footerNav li {
+    list-style: none;
+    margin-bottom: 14px;
+}
+.footerNav li a {
+    text-decoration: none;
+    color: #868c98;
+    font-weight: 300;
+}
+.footerNav li a:hover {
+    color: #dca73a;
+}
+.footerThirdHead {
+    font-size: 20px;
+    margin-left: 100px;
+}
+.footerThirdAddress {
+    margin-top: 50px;
+}
+.footerForthHead {
+    font-size: 20px;
+    margin-left: 100px;
+}
+.footerForthAddress {
+    margin-top: 40px;
+    color: #868c98;
+    line-height: 30px;
+}
+.footerForthAddress p:hover {
+    color: #dca73a;
+}
+.emailSection {
+    padding: 10px;
+}
+#email {
+    padding: 15px;
+    width: 280px;
+}
+/* jquery */
+/* Scroll Up */
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+
+    background-image: url("./assets/top.png");
+    height: 38px;
+    width: 38px;
+}

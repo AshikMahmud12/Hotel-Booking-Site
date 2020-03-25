@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Required Stylesheet File -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Hotel Booking</title>
+        <link rel="stylesheet" href="./assets/css/nice-select.css" />
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- nav Section  Start-->
+
+        <nav>
+            <!-- Logo Section Start -->
+            <div class="logo">
+                <h4>Marian</h4>
+            </div>
+            <!-- Logo Section End-->
+
+            <!-- Main Menu Section Start -->
+            <div id="navLinks">
+                <ul class="navLinks">
+                    <li><a href="#navLinks">Home</a></li>
+                    <li><a href="#ourCompany">About</a></li>
+                    <li><a href="#roomSection">Service</a></li>
+                    <li><a href="#recentNewsSection">Blog</a></li>
+                    <li><a href="#footerSection">Pages</a></li>
+                    <li><a href="#footerSection">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Main Menu Section End -->
+            <!-- Booking Button Section Start -->
+            <div id="buttonSection">
+                <a href="#" class="button">BOOK Online</a>
+            </div>
+            <!-- Booking Button Section End -->
+        </nav>
+
+        <!-- nav Section  End-->
+
+        <!-- Hero Section  Start-->
+        <div id="heroSection">
+            <div class="bgImage"></div>
+            <div class="overlay"></div>
+            <div class="section">
+                <h1 class="text">TOP HOTEL IN THE CITY</h1>
+                <p>
+                    Hotel & Resourt
+                </p>
+            </div>
+        </div>
+        <!-- Hero Section  End-->
+
+        <!-- Booking Section Start-->
+        <div id="bookingSystemSection">
+            <form action="">
+                <div class="bookingSystem">
+                    <div class="checkInkDate">
+                        <label for="checkInkDate">Check In Date:</label><br />
+                        <input type="date" id="checkInkDate" name="date" />
+                    </div>
+                    <div class="checkOutDate">
+                        <label for="checkOutDate">Check Out Date:</label><br />
+                        <input type="date" id="checkOutDate" name="date" />
+                    </div>
+                    <div class="adults">
+                        <label for="number">Adults:</label><br />
+                        <select id="adult" name="adults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="childrenSection">
+                        <div class="childrenTitle">
+                            <label for="number">Children:</label><br />
+                        </div>
+                        <div class="childrennumber">
+                            <form action="#">
+                                <div class="select-items">
+                                    <select id="children" name="children">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="room">
+                        <label for="number">Rooms:</label><br />
+                        <select id="rooms" name="rooms">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div id="buttonSection" class="bookNow">
+                        <a href="#" class="button">BOOK NOW</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Booking Section End-->
+
+        <!-- About Our Company Section Start-->
+        <div id="ourCompany">
+            <div class="companyImage">
+                <img src="./assets/images/customar1.png" alt="" />
+            </div>
+            <div class="companyDetail">
+                <h3 class="companyDetailHeading">About Our Company</h3>
+                <h5 class="companyDetailDrinks">
+                    Make the customer the hero of your story
+                </h5>
+                <p class="companyDetailParagraph1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae illum nobis impedit totam! Maxime magnam fugiat, veniam
+                    placeat excepturi eaque ad neque ratione autem dolore a enim
+                    explicabo corporis porro.
+                </p>
+                <p class="companyDetailParagraph2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae illum nobis impedit totam! Maxime magnam fugiat, veniam
+                    placeat excepturi eaque ad neque ratione autem dolore a enim
+                    explicabo corporis porro.
+                </p>
+                <!-- Button in Company Section Start -->
+                <div id="buttonCompanySection">
+                    <a href="#" class="buttonCompany">
+                        View More<i class="fas fa-greater-than"></i
+                    ></a>
+                </div>
+                <!-- Button in Company Section End -->
+            </div>
+            <div class="experience">
+                <p>25 Years Of Service experience</p>
+            </div>
+        </div>
+        <!-- About Our Company Section End-->
+
+        <!-- Our Room Section Start-->
+
+        <section id="roomSection">
+            <div id="container">
+                <div class="ourRoom">
+                    <h1>Our Rooms</h1>
+                </div>
+            </div>
+            <!-- Room Item  Start-->
+            <div class="flex-container">
+                <div>
+                    <img
+                        src="./assets/images/room1.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+
+                    <p>Classic Double Bed</p>
+                    <p>Dollar: 150 / per night</p>
+                </div>
+                <!-- Room Item End--->
+
+                <!-- Room Item Start--->
+                <div>
+                    <img
+                        src="./assets/images/room2.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <p>Classic Double Bed</p>
+                    <p>Dollar: 150 / per night</p>
+                </div>
+                <!-- Room Item End--->
+
+                <!-- Room Item Start--->
+                <div>
+                    <img
+                        src="./assets/images/room3.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <p>Classic Double Bed</p>
+                    <p>Dollar: 150 / per night</p>
+                </div>
+                <!-- Room Item End--->
+
+                <!-- Room Item Start--->
+                <div>
+                    <img
+                        src="./assets/images/room4.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <p>Classic Double Bed</p>
+                    <p>Dollar: 150 / per night</p>
+                </div>
+                <!-- Room Item End--->
+
+                <!-- Room Item Start--->
+                <div>
+                    <img
+                        src="./assets/images/room5.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <p>Classic Double Bed</p>
+                    <p>Dollar: 150 / per night</p>
+                </div>
+                <!-- Room Item End--->
+
+                <!-- Room Item Start--->
+                <div>
+                    <img
+                        src="./assets/images/room6.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <p>Classic Double Bed</p>
+                    <p>Dollar: 150 / per night</p>
+                </div>
+            </div>
+            <!-- Buttom Room Section Start-->
+            <div id="buttonSection">
+                <a href="#" class="buttonRoom">
+                    View More<i class="fas fa-greater-than"></i
+                ></a>
+            </div>
+            <!-- Buttom Room Section Start-->
+        </section>
+        <!-- Our Room Section End-->
+
+        <!--Our  Resturant Section Start -->
+        <div id="ourResturant">
+            <div class="resturantImage">
+                <img src="./assets/images/dining-img.jpg" alt="" />
+            </div>
+            <div class="resturantDetail">
+                <h3 class="resturantDetailHeading">Our Resturant</h3>
+                <h5 class="resturantDetailDrinks">Dining And Drinks</h5>
+                <p class="resturantDetailParagraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae illum nobis impedit totam! Maxime magnam fugiat, veniam
+                    placeat excepturi eaque ad neque ratione autem dolore a enim
+                    explicabo corporis porro.
+                </p>
+                <div id="buttonResturantSection">
+                    <a href="#" class="buttonResturant">
+                        View More<i class="fas fa-greater-than"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+        <!--Our  Resturant Section Start -->
+
+        <!-- Our Pool Section Start-->
+
+        <div id="ourResturant">
+            <div class="poolImage">
+                <img src="./assets/images/dining-img2.jpg" alt="" />
+            </div>
+            <div class="poolDetail">
+                <h3 class="poolDetailHeading">Our Pool</h3>
+                <h5 class="poolDetailDrinks">Swimming Pool</h5>
+                <p class="poolDetailParagraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae illum nobis impedit totam! Maxime magnam fugiat, veniam
+                    placeat excepturi eaque ad neque ratione autem dolore a enim
+                    explicabo corporis porro.
+                </p>
+                <div id="buttonPoolSection">
+                    <a href="#" class="buttonPool">
+                        View More<i class="fas fa-greater-than"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+        <!-- Our Pool Section End-->
+
+        <!-- Testimonial Section -->
+        <div id="testimonialSection">
+            <div id="testimonialCarousel" class="owl-carousel">
+                <div class="item">
+                    <div class="ourRoom">
+                        <h1>Testimonial</h1>
+                    </div>
+
+                    <div class="testimonialItem">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Rerum aspernatur deserunt consectetur, ducimus
+                            similique dolore sunt beatae maiores neque quis
+                            impedit corporis quaerat numquam, repellat sit modi
+                            ipsum eveniet quod.
+                        </p>
+                        <div class="starMarking">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="client">
+                            <p>
+                                Clifford frazier,
+                                <span> regular client</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Blog  Section Start-->
+        <div id="recentNewsSection">
+            <div class="ourRoom">
+                <h1>Recent News</h1>
+            </div>
+            <!-- Blog Item Start -->
+            <div class="flex-containerBlog">
+                <div class="flexBlogItem">
+                    <img
+                        src="./assets/images/blog-img1.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <div id="buttonSectionBlog">
+                        <div class="buttonBlog">
+                            <a href="#" class="buttonNews">News</a>
+                            <p>
+                                by
+                                <span style="color: salmon;"> John Guru</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="blogMiddleParagraph">
+                        5 Simple Tricks for Getting Stellar Hotel Service
+                        Wherever You Are
+                    </p>
+                </div>
+                <!-- Blog Item End-->
+
+                <!-- Blog Item Start-->
+                <div class="flexBlogItem">
+                    <img
+                        src="./assets/images/blog-img2.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <div id="buttonSectionBlog">
+                        <div class="buttonBlog">
+                            <a href="#" class="buttonNews">News</a>
+                            <p>
+                                by
+                                <span style="color: salmon;"> John Guru</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="blogMiddleParagraph">
+                        5 Simple Tricks for Getting Stellar Hotel Service
+                        Wherever You Are
+                    </p>
+                </div>
+                <!-- Blog Item End-->
+
+                <!-- Blog Item  Start-->
+                <div class="flexBlogItem">
+                    <img
+                        src="./assets/images/blog-img3.jpg"
+                        alt="Trulli"
+                        width="400"
+                        height="350"
+                    />
+                    <div id="buttonSectionBlog">
+                        <div class="buttonBlog">
+                            <a href="#" class="buttonNews">News</a>
+                            <p>
+                                by
+                                <span style="color: salmon;"> John Guru</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="blogMiddleParagraph">
+                        5 Simple Tricks for Getting Stellar Hotel Service
+                        Wherever You Are
+                    </p>
+                </div>
+                <!-- Blog Item End-->
+            </div>
+            <!-- Our Blog  Section End-->
+
+            <!-- Galary Section -->
+            <div id="Gallery">
+                <div id="galleryCarousel" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./assets/images/gallery1.jpg" alt="Trulli" />
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/gallery2.jpg" alt="Trulli" />
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/gallery3.jpg" alt="Trulli" />
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/room1.jpg" alt="Trulli" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div id="footerSection">
+            <div class="footer">
+                <!-- Footer First Section -->
+                <div class="footerFirst">
+                    <p class="logo" style="color:#dca73a ;">Marian</p>
+                    <div class="socialMedia">
+                        <a href="#"> <i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                    <p class="copyright">
+                        Copyright &2020 All rights<br />
+                        reserved | This template is<br />
+                        made by Ashik
+                    </p>
+                </div>
+                <div class="footerSecond">
+                    <div class="footerSecondHead">
+                        <h4>Quick Links</h4>
+                        <div class="footerSecondNav">
+                            <ul class="footerNav">
+                                <li><a href="#">About Mariana</a></li>
+                                <li><a href="#">Our Best Rooms</a></li>
+                                <li><a href="#">Our Photo Gallery</a></li>
+                                <li><a href="#">Pool Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerThird">
+                    <div class="footerThirdHead">
+                        <h4>Reservations</h4>
+                        <div class="footerThirdAddress">
+                            <ul class="footerNav">
+                                <li><a href="#">Tel: 345 5667 889</a></li>
+                                <li><a href="#">Skype: Marianabooking</a></li>
+                                <li>
+                                    <a href="#">reservations@hotelriver.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerForth">
+                    <div class="footerForthHead">
+                        <h4>Our Location</h4>
+                        <div class="footerForthAddress">
+                            <p>198 West 21th Street,</p>
+                            <p>Suite 721 New York NY 10016</p>
+                            <div class="emailSection">
+                                <form action="">
+                                    <label for="email"></label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="Email Address"
+                                    />
+                                    <i class="far fa-paper-plane"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/js/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.js"></script>
+
+        <script
+            src="https://kit.fontawesome.com/2ac4d6ea10.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
